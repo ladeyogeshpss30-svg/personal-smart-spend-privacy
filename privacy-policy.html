@@ -90,7 +90,7 @@
       <h1>Privacy Policy - Personal Smart Spend</h1>
       <div class="meta">
         Effective Date: July 26, 2026<br>
-        Last Updated: August 24, 2026
+        Last Updated: August 27, 2026
       </div>
 
       <p>This Privacy Policy describes how <strong>Personal Smart Spend</strong> (the "App", "we", "our", or "us") handles information when you use the Android application <strong>Personal Smart Spend</strong> (package: <code>com.personalsmartspend.app</code>) and our official privacy policy page.</p>
@@ -194,7 +194,7 @@
       <h2>6. Premium Features and Payments</h2>
       <p>Personal Smart Spend may offer Premium subscriptions, such as 1 month, 3 months, and 1 year plans, through Google Play.</p>
       <p>Payments are processed by <strong>Google Play</strong>. We do not collect or store your payment card details.</p>
-      <p>For Android, the App asks Google Play for subscriptions owned by the currently signed-in purchasing account. It validates the signed purchase data locally using the app's Google Play licensing public key and acknowledges verified purchases through Google Play billing when required. The App does not send the purchase token or signed purchase JSON to a developer-operated billing server.</p>
+      <p>For Android, the App asks Google Play for subscriptions owned by the currently signed-in purchasing account. It validates the signed purchase data locally using the app's Google Play licensing public key and acknowledges verified purchases through Google Play billing when required. The App does not send the purchase token or signed purchase JSON to a developer-operated billing server, and it does not use Firebase Functions for billing verification.</p>
       <p>The App may locally store limited entitlement metadata and the signed Google Play purchase proof. An editable Premium flag does not independently grant access: the proof must have a valid Google Play signature. Premium may remain available offline for up to seven days after the last successful Google Play refresh. The App must then reconnect to Google Play; an online response that no longer returns the subscription removes Premium access.</p>
 
       <h2>7. Permissions and Device Access</h2>
